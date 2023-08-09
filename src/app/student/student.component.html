@@ -1,0 +1,24 @@
+<div class="">
+    <table>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Marks (out of 100)</th>
+          <th>Pass/Fail</th>
+          <th>studentId</th>
+        </tr>
+        <tr *ngFor="let student of student" [ngClass]="{ 'fail': student.marks < 50, 'pass': student.marks >= 50 }">
+          <td>{{ student.name }}</td>
+          <td>{{ student.email }}</td>
+          <td>{{ student.marks }}</td>
+          <td  *ngIf="student.marks >= 50"><span class="pas">PASS</span></td>
+          <td *ngIf="student.marks < 50"><span class="fal">FAIL</span></td>
+          <td>{{student.studentId}}</td>
+        </tr>
+      </table>
+    
+      <br/>
+      <br/>
+    
+      <button routerLink="/home">Go to home</button>
+    </div>

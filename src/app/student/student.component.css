@@ -1,0 +1,32 @@
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #585858;
+    
+  }
+  
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  .pas{
+background-color: green;
+line-height: 2;
+  }
+  .fal{
+    background-color: rgb(229, 33, 7);
+    line-height: 2;
+      }
+ button{
+  font-weight: bold;
+  height: 30px;
+  width: 150px;
+ }
+  

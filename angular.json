@@ -86,10 +86,10 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
+            "styles": ["node_Modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["node_Modules/bootstrap/dist/js/bootstrap.min.js"]
           }
         }
       }
